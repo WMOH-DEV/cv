@@ -1,0 +1,28 @@
+
+/*phone*/
+@media(max-width: 768px)
+{
+
+}
+
+/*small screen*/
+
+@media(min-width: 769px )and (max-width: 991px)
+{
+
+}
+
+
+/*midum*/
+@media(min-width: 992px )and (max-width: 1199px)
+{
+
+}
+
+
+/*large*/
+
+@media(min-width: 1200px)
+{
+
+}

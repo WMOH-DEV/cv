@@ -1,0 +1,252 @@
+/*
+*
+*
+*        Theme Name      : xxxx
+*        Author          : xxxxxxxx
+*        License         : https://
+*        Theme Coder     : Wael Mohamed 
+*        Code Version    : 0.0.0
+*
+*
+**/
+
+/* Main Css Rules  for Main Elements in The project */
+@import url('https://fonts.googleapis.com/css?family=Kanit:900');
+
+body {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.mainFont {
+	text-shadow: 0px 0px 5px #00000075;
+}
+
+.text {
+	text-transform: uppercase;
+	font-family: 'Kanit';
+	font-size: 7em;
+	font-weight: 700;
+	color: #f5f5f5;
+	text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+		1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+		1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+		1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+		1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+		1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+.text-noblur {
+	text-transform: uppercase;
+	font-family: 'Kanit';
+	font-size: 7em;
+	font-weight: 700;
+	color: #f5f5f5;
+	text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+		1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+		1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+		1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+		1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 10px rgba(16, 16, 16, 0.2),
+		1px 30px 10px rgba(16, 16, 16, 0.4);
+}
+
+.text-small {
+	font-size: 3em !important;
+}
+
+/*  End of Main Css Rules  */
+
+/*********** Start Header *************/
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+	.text-sm {
+		font-size: 5em !important;
+	}
+}
+
+@media all and (min-width: 601px) and (max-width: 768px) {
+	.text-sm {
+		font-size: 4.5em !important;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.text-sm {
+		font-size: 3em !important;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.app .wrapper {
+		width: 75%;
+	}
+	.form--section .wrapper {
+		width: 75%;
+	}
+}
+
+.hide {
+	display: none;
+}
+
+.item-text {
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	box-shadow: -4px -4px 10px rgba(255, 255, 255, 1),
+		inset 4px 4px 10px rgba(0, 0, 0, 0.05),
+		inset -4px -4px 10px rgba(255, 255, 255, 1),
+		4px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/***========== seconed section ==========***/
+
+.subFontColor {
+	color: #969696;
+}
+
+.xl--f {
+	font-size: 2.375rem;
+}
+.h-after {
+	position: absolute;
+	height: 100%;
+	top: 0px;
+	left: 50%;
+	opacity: 0.1;
+	font-size: 80px;
+	line-height: 20px;
+	font-family: 'Poppins', sans-serif;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+}
+
+.hustlin:hover {
+	animation: flashing 2000ms infinite;
+	-webkit-animation: flashing 2000ms infinite;
+}
+
+@keyframes flashing {
+	0% {
+		background-color: red;
+	}
+	10% {
+		background-color: green;
+	}
+	20% {
+		background-color: blue;
+	}
+	30% {
+		background-color: BlueViolet;
+	}
+	40% {
+		background-color: AliceBlue;
+	}
+	50% {
+		background-color: Cyan;
+	}
+	60% {
+		background-color: DarkOrchid;
+	}
+	70% {
+		background-color: darkorange;
+	}
+	80% {
+		background-color: Beige;
+	}
+	90% {
+		background-color: tomato; /*= Ahmed Bahnasy best color =*/
+	}
+	100% {
+		background-color: burlywood;
+	}
+}
+
+.r-g-b {
+	transition: all 1100ms;
+	-webkit-transition: all 1100ms;
+	-moz-transition: all 1100ms;
+	-ms-transition: all 1100ms;
+	-o-transition: all 1100ms;
+}
+
+#svg_r,
+#svg_b,
+#svg_g {
+	transition: all 900ms;
+	-webkit-transition: all 900ms;
+	-moz-transition: all 900ms;
+	-ms-transition: all 900ms;
+	-o-transition: all 900ms;
+}
+
+/**=== countdown section ==**/
+
+#count__down {
+	background: url(../src/imgs/01.jpg) center center/cover no-repeat;
+}
+
+.bg-info_custom {
+	background-color: #5201ff1a !important;
+}
+
+/**== RGB section ==**/
+
+#r--section,
+#g--section,
+#b--section {
+	font-size: 15rem;
+}
+
+/**== validation section ==**/
+
+.form--section {
+	background-color: rgb(238, 238, 238);
+}
+
+.form--section .wrapper {
+	padding: 2.5rem;
+	background-color: #fff;
+}
+
+/************* Footer ***************/
+
+footer .icon-heart-filled::before {
+	animation: beat 500ms ease infinite;
+}
+
+@keyframes beat {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1.25);
+	}
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+}

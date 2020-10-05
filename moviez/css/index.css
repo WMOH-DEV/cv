@@ -76,6 +76,7 @@ input::placeholder
 {
     list-style: none;
     padding-top:500px;
+	cursor: pointer;
 }
 
 .rightSide

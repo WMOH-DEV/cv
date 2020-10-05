@@ -1,0 +1,91 @@
+/*
+*
+*
+*        Project Name    : Products Table
+*        Author          : Route Academy
+*        License         : https://wmoh-dev.github.io/Route/JS02/project/
+*        Coder           : Wael Mohamed 
+*        Code Version    : 1.1.0
+*
+*
+**/
+
+
+
+/* Main Css Rules  for Main Elements in The project */
+
+
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*  End of Main Css Rules  */
+
+
+/*********** Start Header *************/
+
+.testy {
+    position: relative !important;
+}
+
+
+.testy::after {
+    content: '\E810';
+    font-family: "fontello";
+    top: 0;
+    right: 25%;
+    height: 100%;
+    width: 50px;
+    border-left: 1px solid #ced4da;
+    position: absolute;
+    line-height: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #6c77e4;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************* Footer ***************/
+
+
+footer .icon-heart-filled::before {
+    animation: beat 500ms ease infinite;
+
+}
+
+
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.25);
+    }
+
+}

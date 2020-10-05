@@ -1,0 +1,334 @@
+/*
+*
+*
+*        Theme Name      : xxxx
+*        Author          : xxxxxxxx
+*        License         : https://bootstrapmade.com/license/
+*        Theme Coder     : Wael Mohamed 
+*        Code Version    : 0.0.0
+*
+*
+**/
+
+
+
+/* Main Css Rules  for Main Elements in The project */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: .875rem;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    border: 1px solid #66cc66;
+
+}
+
+
+
+/*  End of Main Css Rules  */
+
+
+/*********** Start Header *************/
+
+
+.outter .orderNumber {
+    font-size: 1.0625rem;
+    color: #3272b6;
+    font-weight: bold;
+}
+
+.sidebarMain {
+    width: 5vw;
+}
+
+.mainScreen {
+    width: 94vw;
+}
+
+
+.tableNumber {
+    position: relative;
+    padding: 0px 8px;
+    display: inline-block;
+    background: #fff;
+    padding: 0px 10px;
+}
+
+
+/* .tableNumber::before {
+    content: "\E849";
+    font-family: 'fontello';
+    position: absolute;
+    top: -1px;
+    right: 100%;
+    height: 107%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 0 5px;
+    border: 1px solid #eee;
+
+
+} */
+
+
+.tableNumber::before {
+    content: "\E849";
+    font-family: 'fontello';
+    position: absolute;
+    top: 78%;
+    /* right: 0px; */
+    height: 95%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    left: 0;
+    width: 100%;
+    background: #fff;
+    cursor: pointer;
+
+
+}
+
+
+/* .tableNumber::after {
+
+    content: "\E82F";
+    font-family: 'fontello';
+    position: absolute;
+    top: -1px;
+    left: 100%;
+    height: 107%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 0px 5px;
+    border: 1px solid #eee;
+
+} */
+
+
+.tableNumber::after {
+
+    content: "\E82F";
+    font-family: 'fontello';
+    position: absolute;
+    bottom: 91%;
+    left: 0;
+    height: 95%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /*     border: 1px solid #fff; */
+    background: #fff;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.itemsTableScroll {
+    overflow-y: scroll;
+    height: 14.875rem;
+}
+
+
+
+
+.itemsTableScroll::-webkit-scrollbar {
+    width: 2px;
+}
+
+.itemsTableScroll::-webkit-scrollbar-button {
+    display: none;
+}
+
+.itemsTableScroll::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+}
+
+.itemsTableScroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(145, 113, 113, 0.8);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.itemsTableScroll::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(235, 232, 232, 0.4);
+}
+
+
+
+.btn-check {
+    width: 100px;
+}
+
+
+
+.btn-cat {
+    width: 115px;
+}
+
+
+
+
+
+
+
+
+.itemOut {
+    width: 185px;
+}
+
+
+.searchBtn,
+.barcode {
+    top: 0;
+}
+
+.searchBtn {
+    left: 2%;
+}
+
+.barcode {
+    font-size: 1.5625rem;
+    padding: .1875rem;
+    right: 6%;
+    opacity: 0.9;
+    line-height: 2m;
+}
+
+.searchBar input {
+    padding-left: 2.5rem !important;
+}
+
+
+
+.screenResize {
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+
+
+/************* Footer ***************/
+
+
+footer .icon-heart-filled::before {
+    animation: beat 500ms ease infinite;
+
+}
+
+
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.25);
+    }
+
+}
+
+
+.itemOut {
+    border-radius: 20px !important;
+    overflow: hidden;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    cursor: pointer;
+
+}
+
+
+.itemOut img {
+    min-height: 9.375rem !important;
+    max-height: 9.375rem !important;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+
+.itemOut:hover img {
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+}
+
+
+.itemPicN {
+    position: absolute;
+    bottom: 25%;
+    left: -100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 0.9rem;
+    transition: all 1000ms;
+    -webkit-transition: all 1000ms;
+    -moz-transition: all 1000ms;
+    -ms-transition: all 1000ms;
+    -o-transition: all 1000ms;
+}
+
+.itemPic-p {
+    position: absolute;
+    bottom: 5%;
+    left: -100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 0.9rem;
+    transition: all 1200ms;
+    -webkit-transition: all 1500ms;
+    -moz-transition: all 1200ms;
+    -ms-transition: all 1200ms;
+    -o-transition: all 1200ms;
+}
+
+
+.itemOut:hover .itemPicN,
+.itemOut:hover .itemPic-p {
+    left: 0;
+}
+
+
+
+.itemGaller {
+    height: 70vh;
+    overflow-y: auto;
+    padding-right: 17px;
+}
+
+.itemGaller::-webkit-scrollbar {
+    width: 3px;
+
+
+}
+
+
+.itemGaller::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 40px;
+    background: rgba(228, 228, 228, 0.8);
+    box-shadow: inset 0 0 6px rgb(218, 218, 218);
